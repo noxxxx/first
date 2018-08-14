@@ -1,0 +1,23 @@
+<template name="template$13f72f17">
+  <view class="_view data-v-25b99430">
+    <view class="_view data-v-25b99430 page-bottom" bindtouchmove="handleProxy" bindtouchend="handleProxy" bindtouchstart="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-25b99430 page-content">
+        <view class="_view data-v-25b99430 wc">
+          <navigator url="#" hover-class="navigator-hover" class="_navigator data-v-25b99430">第一个菜单</navigator>
+        </view>
+        <view class="_view data-v-25b99430 wc">
+          <navigator url="#" hover-class="navigator-hover" class="_navigator data-v-25b99430">第二个菜单（缩放）</navigator>
+        </view>
+        <view class="_view data-v-25b99430 wc">
+          <navigator url="#" hover-class="navigator-hover" class="_navigator data-v-25b99430">第三个菜单（拖动）</navigator>
+        </view>
+        <view class="_view data-v-25b99430 wc">
+          <navigator url="#" hover-class="navigator-hover" class="_navigator data-v-25b99430">第四个菜单</navigator>
+        </view>
+      </view>
+    </view>
+    <view bindtouchmove="handleProxy" bindtouchend="handleProxy" bindtouchstart="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}" class="_view data-v-25b99430 {{['page-top', openDrag ? 'c-state2' : '', openClick ? 'c-state2' : '']}}">
+      <image src="../../../static/menu.png" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_image data-v-25b99430"></image>
+    </view>
+  </view>
+</template>

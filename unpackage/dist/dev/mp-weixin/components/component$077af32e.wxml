@@ -1,0 +1,20 @@
+<import src="page-head$e5a86012" />
+<template name="component$077af32e">
+  <view class="_view data-v-b49c6586 content">
+    <template data="{{...$root[$kk+'0'], $root}}" is="page-head$e5a86012"></template>
+    <view class="_view data-v-b49c6586 page-body">
+      <view class="_view data-v-b49c6586 page-section page-section-gap">
+        <view class="_view data-v-b49c6586 page-section-title">nodes属性为Aarry</view>
+        <view class="_view data-v-b49c6586 page-section-ctn">
+          <rich-text class="_rich-text data-v-b49c6586 richText" nodes="{{nodes}}" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}"></rich-text>
+        </view>
+      </view>
+      <view class="_view data-v-b49c6586 page-section page-section-gap">
+        <view class="_view data-v-b49c6586 page-section-title">nodes属性为String</view>
+        <view class="_view data-v-b49c6586 page-section-ctn">
+          <rich-text class="_rich-text data-v-b49c6586 richText" nodes="{{strings}}" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}"></rich-text>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

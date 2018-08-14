@@ -1,0 +1,23 @@
+<import src="page-head$e5a86012" />
+<template name="push$c40a3972">
+  <view class="_view data-v-bdeea7d0">
+    <template data="{{...$root[$kk+'0'], $root}}" is="page-head$e5a86012"></template>
+    <view class="_view data-v-bdeea7d0 page-body" wx:if="{{provider[0]}}">
+      <view class="_view data-v-bdeea7d0 btn-area">
+        <button type="primary" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_button data-v-bdeea7d0">开启push</button>
+        <button type="primary" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_button data-v-bdeea7d0">关闭push</button>
+        <button type="primary" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}" class="_button data-v-bdeea7d0">监听透传数据</button>
+        <button type="primary" bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}" class="_button data-v-bdeea7d0">移除监听透传数据</button>
+      </view>
+      <view class="_view data-v-bdeea7d0 btn-area">
+        <button type="primary" bindtap="handleProxy" data-eventid="{{'4'}}" data-comkey="{{$k}}" class="_button data-v-bdeea7d0">发送"透传数据"消息</button>
+      </view>
+      <view class="_view data-v-bdeea7d0 page-section-title">透传内容：</view>
+      <view class="_view data-v-bdeea7d0 page-section">
+        <view class="_view data-v-bdeea7d0 textare-view">
+          <textarea class="_textarea data-v-bdeea7d0 textarea" value="{{tranMsg}}" bindinput="handleProxy" data-eventid="{{'5'}}" data-comkey="{{$k}}" />
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

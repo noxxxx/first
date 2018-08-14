@@ -1,0 +1,17 @@
+<import src="page-head$e5a86012" />
+<template name="API$d5387542">
+  <view class="_view data-v-3c8ecea4">
+    <template data="{{...$root[$kk+'0'], $root}}" is="page-head$e5a86012"></template>
+    <view class="_view data-v-3c8ecea4 page-body">
+      <view class="_view data-v-3c8ecea4 page-section">
+        <view class="_view data-v-3c8ecea4 page-body-info">
+          <text class="_text data-v-3c8ecea4 page-body-text">下拉页面加载数据</text>
+        </view>
+        <view class="_view data-v-3c8ecea4 page-body-content">
+          <view class="_view data-v-3c8ecea4 text" wx:key="index" key="{{index}}" wx:for="{{data}}" wx:for-index="index" wx:for-item="num">list - {{num}}</view>
+          <view class="_view data-v-3c8ecea4 loadMore" wx:if="{{showLoadMore}}">{{loadMoreText}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

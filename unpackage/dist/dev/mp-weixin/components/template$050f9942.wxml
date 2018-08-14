@@ -1,0 +1,28 @@
+<import src="page-head$e5a86012" />
+<template name="template$050f9942">
+  <view class="_view data-v-4853fc70 page">
+    <template data="{{...$root[$kk+'0'], $root}}" is="page-head$e5a86012"></template>
+    <view class="_view data-v-4853fc70 title">
+      <text class="_text data-v-4853fc70">有底色</text>
+    </view>
+    <view class="_view data-v-4853fc70">
+      <text class="_text data-v-4853fc70 uni-badge">1</text>
+      <text class="_text data-v-4853fc70 uni-badge uni-badge-primary">12</text>
+      <text class="_text data-v-4853fc70 uni-badge uni-badge-success">123</text>
+      <text class="_text data-v-4853fc70 uni-badge uni-badge-warning">3</text>
+      <text class="_text data-v-4853fc70 uni-badge uni-badge-danger">45</text>
+      <text class="_text data-v-4853fc70 uni-badge uni-badge-purple">456</text>
+    </view>
+    <view class="_view data-v-4853fc70 title">
+      <text class="_text data-v-4853fc70">无底色</text>
+    </view>
+    <view class="_view data-v-4853fc70">
+      <text class="_text data-v-4853fc70 uni-badge uni-badge-inverted">1</text>
+      <text class="_text data-v-4853fc70 uni-badge uni-badge-primary uni-badge-inverted">12</text>
+      <text class="_text data-v-4853fc70 uni-badge uni-badge-success uni-badge-inverted">123</text>
+      <text class="_text data-v-4853fc70 uni-badge uni-badge-warning uni-badge-inverted">3</text>
+      <text class="_text data-v-4853fc70 uni-badge uni-badge-danger uni-badge-inverted">45</text>
+      <text class="_text data-v-4853fc70 uni-badge uni-badge-purple uni-badge-inverted">456</text>
+    </view>
+  </view>
+</template>

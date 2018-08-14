@@ -1,0 +1,11 @@
+<import src="page-head$e5a86012" />
+<template name="component$398336aa">
+  <view class="_view data-v-0a1d6f39">
+    <template data="{{...$root[$kk+'0'], $root}}" is="page-head$e5a86012"></template>
+    <view class="_view data-v-0a1d6f39 page-body">
+      <view class="_view data-v-0a1d6f39 page-section page-section-gap">
+        <map latitude="{{latitude}}" longitude="{{longitude}}" markers="{{covers}}" class="_map data-v-0a1d6f39"></map>
+      </view>
+    </view>
+  </view>
+</template>

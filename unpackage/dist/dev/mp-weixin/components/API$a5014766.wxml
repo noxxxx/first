@@ -1,0 +1,14 @@
+<import src="page-head$e5a86012" />
+<template name="API$a5014766">
+  <view class="_view data-v-7f24a5c8">
+    <template data="{{...$root[$kk+'0'], $root}}" is="page-head$e5a86012"></template>
+    <view class="_view data-v-7f24a5c8 page-body">
+      <view class="_view data-v-7f24a5c8 page-body-wording">
+        <text class="_text data-v-7f24a5c8 page-body-text"> 点击向服务器发起请求 </text>
+      </view>
+      <view class="_view data-v-7f24a5c8 btn-area">
+        <button type="primary" bindtap="handleProxy" loading="{{loading}}" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_button data-v-7f24a5c8">request</button>
+      </view>
+    </view>
+  </view>
+</template>

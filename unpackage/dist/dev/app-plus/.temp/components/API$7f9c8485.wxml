@@ -1,0 +1,27 @@
+<import src="page-head$e5a86012" />
+<template name="API$7f9c8485">
+  <view class="_view data-v-45455754">
+    <template data="{{...$root[$kk+'0'], $root}}" is="page-head$e5a86012"></template>
+    <view class="_view data-v-45455754 page-body">
+      <view class="_view data-v-45455754 page-section">
+        <view class="_view data-v-45455754 page-body-info">
+          <text class="_text data-v-45455754 page-body-text-small">当前位置信息</text>
+          <block wx:if="{{hasLocation === false}}">
+            <text class="_text data-v-45455754 page-body-text">未选择位置</text>
+          </block>
+          <block wx:if="{{hasLocation === true}}">
+            <text class="_text data-v-45455754 page-body-text">{{locationAddress}}</text>
+            <view class="_view data-v-45455754 page-body-text-location">
+              <text class="_text data-v-45455754">E: {{location.longitude[0]}}°{{location.longitude[1]}}′</text>
+              <text class="_text data-v-45455754">N: {{location.latitude[0]}}°{{location.latitude[1]}}′</text>
+            </view>
+          </block>
+        </view>
+        <view class="_view data-v-45455754 btn-area">
+          <button type="primary" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_button data-v-45455754">选择位置</button>
+          <button bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_button data-v-45455754">清空</button>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>
